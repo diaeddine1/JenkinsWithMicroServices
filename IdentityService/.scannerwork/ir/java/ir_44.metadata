@@ -1,0 +1,7 @@
+com.example.demo.IdentityServiceTests#testUpdatePassword()V
+com.example.demo.request.UpdatePassword#instance-init#
+com.example.demo.entity.User#<init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+com.example.demo.request.UpdatePassword#<init>(ILjava/lang/String;Ljava/lang/String;)V
+com.example.demo.entity.User#instance-init#
+==
+getId com.example.demo.entity.User#getId()I

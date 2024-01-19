@@ -1,0 +1,12 @@
+com.example.demo.HistoryControllerTests#testSaveHistory()V
+java.lang.String#equals(Ljava/lang/Object;)Z
+com.example.demo.request.SaveHistoryRequest#<init>(IILjava/lang/String;)V
+com.example.demo.request.SaveHistoryRequest#instance-init#
+==
+getUserId com.example.demo.request.SaveHistoryRequest#getUserId()I
+findAll com.example.demo.repository.HistoryRepository#findAll()Ljava/util/List;
+getAction com.example.demo.entity.History#getAction()Ljava/lang/String;
+get java.util.List#get(I)Ljava/lang/Object;
+getAction com.example.demo.request.SaveHistoryRequest#getAction()Ljava/lang/String;
+size java.util.List#size()I
+getUserId com.example.demo.entity.History#getUserId()I

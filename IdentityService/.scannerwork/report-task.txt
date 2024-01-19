@@ -1,0 +1,7 @@
+organization=identityservice
+projectKey=identityservice_test
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.51767
+dashboardUrl=https://sonarcloud.io/dashboard?id=identityservice_test
+ceTaskId=AYzAI6XdGNv59YaPxLY6
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYzAI6XdGNv59YaPxLY6

@@ -1,0 +1,8 @@
+com.example.demo.QRCodeControllerTests#testScan()V
+com.example.demo.request.ScanRequest#<init>(ILjava/lang/String;)V
+com.example.demo.entity.QRCode#<init>(Ljava/lang/String;)V
+com.example.demo.request.ScanRequest#instance-init#
+com.example.demo.entity.QRCode#instance-init#
+==
+findAll com.example.demo.repository.QRCodeRepository#findAll()Ljava/util/List;
+size java.util.List#size()I

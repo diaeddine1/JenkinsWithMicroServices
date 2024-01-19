@@ -1,0 +1,4 @@
+com.example.demo.entity.History#<init>(IILjava/lang/String;)V
+java.time.LocalDate#format(Ljava/time/format/DateTimeFormatter;)Ljava/lang/String;
+java.time.LocalDate#now()Ljava/time/LocalDate;
+java.time.format.DateTimeFormatter#ofPattern(Ljava/lang/String;)Ljava/time/format/DateTimeFormatter;

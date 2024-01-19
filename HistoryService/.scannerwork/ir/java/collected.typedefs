@@ -1,0 +1,70 @@
+Ç
+-com.example.demo.controller.HistoryControllerA
+<init>7com.example.demo.controller.HistoryController#<init>()VÅ
+
+getHistoryscom.example.demo.controller.HistoryController#getHistory(Lcom/example/demo/request/HistoryRequest;)Ljava/util/List;x
+saveHistoryicom.example.demo.controller.HistoryController#saveHistory(Lcom/example/demo/request/SaveHistoryRequest;)Vjava.lang.Object.
+com.example.demo.idao.IDaojava.lang.Objectœ
+'com.example.demo.HistoryControllerTests;
+<init>1com.example.demo.HistoryControllerTests#<init>()V9
+setUp0com.example.demo.HistoryControllerTests#setUp()VK
+testGetHistory9com.example.demo.HistoryControllerTests#testGetHistory()VM
+testSaveHistory:com.example.demo.HistoryControllerTests#testSaveHistory()Vjava.lang.ObjectC
+-com.example.demo.repository.HistoryRepositoryjava.lang.Object ∞
+&com.example.demo.request.QrCodeRequest:
+<init>0com.example.demo.request.QrCodeRequest#<init>()V;
+<init>1com.example.demo.request.QrCodeRequest#<init>(I)V<
+getQrId1com.example.demo.request.QrCodeRequest#getQrId()I=
+setQrId2com.example.demo.request.QrCodeRequest#setQrId(I)Vjava.lang.Object¨
++com.example.demo.request.SaveHistoryRequest?
+<init>5com.example.demo.request.SaveHistoryRequest#<init>()VS
+<init>Icom.example.demo.request.SaveHistoryRequest#<init>(IILjava/lang/String;)VV
+	getActionIcom.example.demo.request.SaveHistoryRequest#getAction()Ljava/lang/String;I
+getQrCodeId:com.example.demo.request.SaveHistoryRequest#getQrCodeId()IE
+	getUserId8com.example.demo.request.SaveHistoryRequest#getUserId()IW
+	setActionJcom.example.demo.request.SaveHistoryRequest#setAction(Ljava/lang/String;)VJ
+setQrCodeId;com.example.demo.request.SaveHistoryRequest#setQrCodeId(I)VF
+	setUserId9com.example.demo.request.SaveHistoryRequest#setUserId(I)Vjava.lang.ObjectΩ
+'com.example.demo.request.HistoryRequest;
+<init>1com.example.demo.request.HistoryRequest#<init>()V<
+<init>2com.example.demo.request.HistoryRequest#<init>(I)VA
+	getUserId4com.example.demo.request.HistoryRequest#getUserId()IB
+	setUserId5com.example.demo.request.HistoryRequest#setUserId(I)Vjava.lang.Object≠
+'com.example.demo.request.HistoryRespond;
+<init>1com.example.demo.request.HistoryRespond#<init>()Và
+<init>~com.example.demo.request.HistoryRespond#<init>(ILjava/lang/String;Ljava/lang/String;Lcom/example/demo/request/QrCodeRespond;)VR
+	getActionEcom.example.demo.request.HistoryRespond#getAction()Ljava/lang/String;9
+getId0com.example.demo.request.HistoryRespond#getId()Ih
+	getQrCode[com.example.demo.request.HistoryRespond#getQrCode()Lcom/example/demo/request/QrCodeRespond;X
+getTimestampHcom.example.demo.request.HistoryRespond#getTimestamp()Ljava/lang/String;S
+	setActionFcom.example.demo.request.HistoryRespond#setAction(Ljava/lang/String;)V:
+setId1com.example.demo.request.HistoryRespond#setId(I)Vi
+	setQrCode\com.example.demo.request.HistoryRespond#setQrCode(Lcom/example/demo/request/QrCodeRespond;)VY
+setTimestampIcom.example.demo.request.HistoryRespond#setTimestamp(Ljava/lang/String;)Vjava.lang.ObjectÕ
+*com.example.demo.HistoryServiceApplication>
+<init>4com.example.demo.HistoryServiceApplication#<init>()VM
+mainEcom.example.demo.HistoryServiceApplication#main([Ljava/lang/String;)Vjava.lang.ObjectÖ
+&com.example.demo.request.QrCodeRespond:
+<init>0com.example.demo.request.QrCodeRespond#<init>()V;
+<init>1com.example.demo.request.QrCodeRespond#<init>(I)Vn
+<init>dcom.example.demo.request.QrCodeRespond#<init>(ILjava/lang/String;Lcom/example/demo/entity/History;)VL
+<init>Bcom.example.demo.request.QrCodeRespond#<init>(Ljava/lang/String;)VM
+getDataBcom.example.demo.request.QrCodeRespond#getData()Ljava/lang/String;8
+getId/com.example.demo.request.QrCodeRespond#getId()IN
+setDataCcom.example.demo.request.QrCodeRespond#setData(Ljava/lang/String;)V9
+setId0com.example.demo.request.QrCodeRespond#setId(I)Vjava.lang.Objectl
+ com.example.demo.idao.CorsConfig4
+<init>*com.example.demo.idao.CorsConfig#<init>()Vjava.lang.Object Ã
+com.example.demo.entity.History3
+<init>)com.example.demo.entity.History#<init>()VG
+<init>=com.example.demo.entity.History#<init>(IILjava/lang/String;)VJ
+	getAction=com.example.demo.entity.History#getAction()Ljava/lang/String;1
+getId(com.example.demo.entity.History#getId()I=
+getQrCodeId.com.example.demo.entity.History#getQrCodeId()IP
+getTimestamp@com.example.demo.entity.History#getTimestamp()Ljava/lang/String;9
+	getUserId,com.example.demo.entity.History#getUserId()IK
+	setAction>com.example.demo.entity.History#setAction(Ljava/lang/String;)V2
+setId)com.example.demo.entity.History#setId(I)V>
+setQrCodeId/com.example.demo.entity.History#setQrCodeId(I)VQ
+setTimestampAcom.example.demo.entity.History#setTimestamp(Ljava/lang/String;)V:
+	setUserId-com.example.demo.entity.History#setUserId(I)Vjava.lang.Object

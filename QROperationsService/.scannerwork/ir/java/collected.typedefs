@@ -1,0 +1,53 @@
+.
+com.example.demo.idao.IDaojava.lang.ObjectÜ
+/com.example.demo.QrOperationsServiceApplicationC
+<init>9com.example.demo.QrOperationsServiceApplication#<init>()VR
+mainJcom.example.demo.QrOperationsServiceApplication#main([Ljava/lang/String;)Vjava.lang.Object‚
+&com.example.demo.QRCodeControllerTests:
+<init>0com.example.demo.QRCodeControllerTests#<init>()V8
+setUp/com.example.demo.QRCodeControllerTests#setUp()VF
+testGenerate6com.example.demo.QRCodeControllerTests#testGenerate()VH
+testGetQRCode7com.example.demo.QRCodeControllerTests#testGetQRCode()V>
+testScan2com.example.demo.QRCodeControllerTests#testScan()Vjava.lang.ObjectË
+$com.example.demo.request.ScanRequest8
+<init>.com.example.demo.request.ScanRequest#<init>()VK
+<init>Acom.example.demo.request.ScanRequest#<init>(ILjava/lang/String;)VK
+getData@com.example.demo.request.ScanRequest#getData()Ljava/lang/String;6
+getId-com.example.demo.request.ScanRequest#getId()IL
+setDataAcom.example.demo.request.ScanRequest#setData(Ljava/lang/String;)V7
+setId.com.example.demo.request.ScanRequest#setId(I)Vjava.lang.ObjectB
+,com.example.demo.repository.QRCodeRepositoryjava.lang.Object ¬
++com.example.demo.request.SaveHistoryRequest?
+<init>5com.example.demo.request.SaveHistoryRequest#<init>()VS
+<init>Icom.example.demo.request.SaveHistoryRequest#<init>(IILjava/lang/String;)VV
+	getActionIcom.example.demo.request.SaveHistoryRequest#getAction()Ljava/lang/String;I
+getQrCodeId:com.example.demo.request.SaveHistoryRequest#getQrCodeId()IE
+	getUserId8com.example.demo.request.SaveHistoryRequest#getUserId()IW
+	setActionJcom.example.demo.request.SaveHistoryRequest#setAction(Ljava/lang/String;)VJ
+setQrCodeId;com.example.demo.request.SaveHistoryRequest#setQrCodeId(I)VF
+	setUserId9com.example.demo.request.SaveHistoryRequest#setUserId(I)Vjava.lang.Objectç
+(com.example.demo.request.GenerateRequest<
+<init>2com.example.demo.request.GenerateRequest#<init>()VO
+<init>Ecom.example.demo.request.GenerateRequest#<init>(ILjava/lang/String;)VO
+getDataDcom.example.demo.request.GenerateRequest#getData()Ljava/lang/String;:
+getId1com.example.demo.request.GenerateRequest#getId()IP
+setDataEcom.example.demo.request.GenerateRequest#setData(Ljava/lang/String;)V;
+setId2com.example.demo.request.GenerateRequest#setId(I)Vjava.lang.ObjectØ
+,com.example.demo.controller.QRCodeController@
+<init>6com.example.demo.controller.QRCodeController#<init>()Vn
+generatebcom.example.demo.controller.QRCodeController#generate(Lcom/example/demo/request/GenerateRequest;)Vb
+scanZcom.example.demo.controller.QRCodeController#scan(Lcom/example/demo/request/ScanRequest;)Vjava.lang.Object  
+com.example.demo.entity.QRCode2
+<init>(com.example.demo.entity.QRCode#<init>()VD
+<init>:com.example.demo.entity.QRCode#<init>(Ljava/lang/String;)VE
+getData:com.example.demo.entity.QRCode#getData()Ljava/lang/String;0
+getId'com.example.demo.entity.QRCode#getId()IF
+setData;com.example.demo.entity.QRCode#setData(Ljava/lang/String;)V1
+setId(com.example.demo.entity.QRCode#setId(I)Vjava.lang.Objectl
+ com.example.demo.idao.CorsConfig4
+<init>*com.example.demo.idao.CorsConfig#<init>()Vjava.lang.Object œ
+"com.example.demo.request.QrRequest6
+<init>,com.example.demo.request.QrRequest#<init>()V7
+<init>-com.example.demo.request.QrRequest#<init>(I)V8
+getQrId-com.example.demo.request.QrRequest#getQrId()I9
+setQrId.com.example.demo.request.QrRequest#setQrId(I)Vjava.lang.Object

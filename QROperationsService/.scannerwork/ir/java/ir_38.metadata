@@ -1,0 +1,9 @@
+com.example.demo.controller.QRCodeController#scan(Lcom/example/demo/request/ScanRequest;)V
+com.example.demo.entity.QRCode#<init>(Ljava/lang/String;)V
+com.example.demo.request.SaveHistoryRequest#<init>(IILjava/lang/String;)V
+com.example.demo.request.SaveHistoryRequest#instance-init#
+com.example.demo.entity.QRCode#instance-init#
+==
+getData com.example.demo.request.ScanRequest#getData()Ljava/lang/String;
+getId com.example.demo.request.ScanRequest#getId()I
+getId com.example.demo.entity.QRCode#getId()I

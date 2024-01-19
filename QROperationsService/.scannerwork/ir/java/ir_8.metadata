@@ -1,0 +1,9 @@
+com.example.demo.QRCodeControllerTests#testGetQRCode()V
+com.example.demo.request.QrRequest#instance-init#
+com.example.demo.entity.QRCode#<init>(Ljava/lang/String;)V
+java.util.Optional#of(Ljava/lang/Object;)Ljava/util/Optional;
+com.example.demo.request.QrRequest#<init>(I)V
+com.example.demo.entity.QRCode#instance-init#
+==
+getData com.example.demo.entity.QRCode#getData()Ljava/lang/String;
+findById com.example.demo.repository.QRCodeRepository#findById(I)Ljava/util/Optional;

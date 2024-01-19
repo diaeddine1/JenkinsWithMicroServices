@@ -1,0 +1,7 @@
+com.example.demo.controller.HistoryController#saveHistory(Lcom/example/demo/request/SaveHistoryRequest;)V
+com.example.demo.entity.History#instance-init#
+com.example.demo.entity.History#<init>(IILjava/lang/String;)V
+==
+getUserId com.example.demo.request.SaveHistoryRequest#getUserId()I
+getQrCodeId com.example.demo.request.SaveHistoryRequest#getQrCodeId()I
+getAction com.example.demo.request.SaveHistoryRequest#getAction()Ljava/lang/String;

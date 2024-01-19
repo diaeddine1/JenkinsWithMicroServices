@@ -1,0 +1,74 @@
+http:
+  port: 9776
+  host: 192.168.11.110
+
+admin:
+  port: 9876
+  host: localhost
+
+apiEndpoints:
+  identifyAPI:
+    host: 192.168.11.110
+    paths:
+      - '/users/signup'
+      - '/users/login'
+      - '/users/updatePassword'
+  qrOperationsAPI:
+    host: 192.168.11.110
+    paths:
+      - '/qrcodes/scan'
+      - '/qrcodes/generate'
+      - '/qrcodes/get'
+  historyAPI:
+    host: 192.168.11.110
+    paths:
+      - '/history/getall'
+      - '/history/save'
+
+serviceEndpoints:
+  identifyService:
+    url: 'http://192.168.11.110:8088'
+  qrOperationsService:
+    url: 'http://192.168.11.110:8086'
+  historyService:
+    url: 'http://192.168.11.110:8084'
+
+policies:
+  - basic-auth
+  - cors
+  - expression
+  - key-auth
+  - log
+  - oauth2
+  - proxy
+  - rate-limit
+
+pipelines:
+  default:
+    apiEndpoints:
+      - identifyAPI
+      - qrOperationsAPI
+      - historyAPI
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: identifyService
+              changeOrigin: true
+
+  qrOperationsPipeline:
+    apiEndpoints:
+      - qrOperationsAPI
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: qrOperationsService
+              changeOrigin: true
+
+  historyPipeline:
+    apiEndpoints:
+      - historyAPI
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: historyService
+              changeOrigin: true

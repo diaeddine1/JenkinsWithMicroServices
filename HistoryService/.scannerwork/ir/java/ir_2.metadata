@@ -1,0 +1,16 @@
+com.example.demo.controller.HistoryController#getHistory(Lcom/example/demo/request/HistoryRequest;)Ljava/util/List;
+java.util.ArrayList#<init>()V
+com.example.demo.request.HistoryRespond#instance-init#
+java.util.ArrayList#instance-init#
+com.example.demo.request.QrCodeRequest#<init>(I)V
+com.example.demo.request.HistoryRespond#<init>(ILjava/lang/String;Ljava/lang/String;Lcom/example/demo/request/QrCodeRespond;)V
+com.example.demo.request.QrCodeRequest#instance-init#
+==
+getUserId com.example.demo.request.HistoryRequest#getUserId()I
+add java.util.List#add(Ljava/lang/Object;)Z
+findAll com.example.demo.repository.HistoryRepository#findAll()Ljava/util/List;
+getAction com.example.demo.entity.History#getAction()Ljava/lang/String;
+getQrCodeId com.example.demo.entity.History#getQrCodeId()I
+getId com.example.demo.entity.History#getId()I
+getUserId com.example.demo.entity.History#getUserId()I
+getTimestamp com.example.demo.entity.History#getTimestamp()Ljava/lang/String;

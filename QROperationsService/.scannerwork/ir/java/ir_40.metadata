@@ -1,0 +1,6 @@
+com.example.demo.controller.QRCodeController#getQRCode(Lcom/example/demo/request/QrRequest;)LResponseEntity;
+java.util.Optional#isPresent()Z
+java.util.Optional#get()Ljava/lang/Object;
+==
+getQrId com.example.demo.request.QrRequest#getQrId()I
+findById com.example.demo.repository.QRCodeRepository#findById(I)Ljava/util/Optional;
